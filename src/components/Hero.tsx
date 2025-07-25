@@ -57,10 +57,20 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="text-lg px-8"
+                onClick={() => window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' })}
+              >
                 Shop Now - Free NYC Delivery
               </Button>
-              <Button variant="outline" size="lg" className="text-lg px-8">
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="text-lg px-8"
+                onClick={() => window.scrollTo({ top: document.getElementById('deals')?.offsetTop || 0, behavior: 'smooth' })}
+              >
                 View Bulk Discounts
               </Button>
             </div>

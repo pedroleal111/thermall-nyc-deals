@@ -24,7 +24,7 @@ const ProductGrid = () => {
       originalPrice: 40.00,
       rating: 4.9,
       reviews: 892,
-      image: "https://images.unsplash.com/photo-1544829099-b9a0c5303bff?w=400",
+      image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
       badge: "Premium",
       colors: ["Stainless", "Navy", "Charcoal"]
     },
@@ -36,7 +36,7 @@ const ProductGrid = () => {
       originalPrice: 32.99,
       rating: 4.7,
       reviews: 2156,
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
+      image: "https://images.unsplash.com/photo-1544829099-b9a0c5303bff?w=400",
       badge: "Budget Pick",
       colors: ["Green", "Black", "Hammertone"]
     },
@@ -48,7 +48,7 @@ const ProductGrid = () => {
       originalPrice: 34.99,
       rating: 4.6,
       reviews: 756,
-      image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400",
+      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400",
       badge: "One-Hand Operation",
       colors: ["Black", "Blue", "Red"]
     },

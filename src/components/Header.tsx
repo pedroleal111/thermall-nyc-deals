@@ -43,7 +43,11 @@ const Header = () => {
             <Button variant="ghost" size="icon" className="md:hidden">
               <Menu className="h-5 w-5" />
             </Button>
-            <Button variant="default" className="hidden md:flex">
+            <Button 
+              variant="default" 
+              className="hidden md:flex"
+              onClick={() => window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' })}
+            >
               Shop Now
             </Button>
           </div>

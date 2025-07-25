@@ -27,6 +27,7 @@ const BrandsSection = () => {
             <div
               key={brand.name}
               className="bg-card p-6 rounded-xl shadow-card hover:shadow-elevation transition-all duration-300 hover:-translate-y-1 group cursor-pointer"
+              onClick={() => window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' })}
             >
               <div className="text-center">
                 <div className="w-12 h-12 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center mx-auto mb-3 group-hover:from-primary/20 group-hover:to-accent/20 transition-colors">
