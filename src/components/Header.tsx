@@ -34,10 +34,19 @@ const Header = () => {
 
           {/* Right side actions */}
           <div className="flex items-center space-x-4">
-            <Button variant="ghost" size="icon" className="hidden md:flex">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="hidden md:flex"
+              onClick={() => window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' })}
+            >
               <Search className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon">
+            <Button 
+              variant="ghost" 
+              size="icon"
+              onClick={() => window.scrollTo({ top: document.getElementById('deals')?.offsetTop || 0, behavior: 'smooth' })}
+            >
               <ShoppingCart className="h-5 w-5" />
             </Button>
             <Button variant="ghost" size="icon" className="md:hidden">
