@@ -24,7 +24,7 @@ const ProductGrid = () => {
       originalPrice: 40.00,
       rating: 4.9,
       reviews: 892,
-      image: "https://images.pexels.com/photos/5818293/pexels-photo-5818293.jpeg",
+      image: "https://images.pexels.com/photos/5274533/pexels-photo-5274533.jpeg",
       badge: "Premium",
       colors: ["Stainless", "Navy", "Charcoal"]
     },
@@ -60,7 +60,7 @@ const ProductGrid = () => {
       originalPrice: 55.00,
       rating: 4.5,
       reviews: 634,
-      image: "https://images.unsplash.com/photo-1611080626919-7cf5a9dbab5b?w=400",
+      image: "https://images.pexels.com/photos/5274533/pexels-photo-5274533.jpeg",
       badge: "Designer",
       colors: ["Rose Gold", "Silver", "Marble"]
     },
@@ -72,7 +72,7 @@ const ProductGrid = () => {
       originalPrice: 26.99,
       rating: 4.4,
       reviews: 1089,
-      image: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400",
+      image: "https://images.unsplash.com/photo-1571162141779-2253174d5dc2?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       badge: "Great Value",
       colors: ["Sage", "Blush", "Midnight"]
     }
