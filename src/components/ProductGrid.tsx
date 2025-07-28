@@ -24,7 +24,7 @@ const ProductGrid = () => {
       originalPrice: 40.00,
       rating: 4.9,
       reviews: 892,
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400",
+      image: "https://images.pexels.com/photos/6378651/pexels-photo-6378651.jpeg",
       badge: "Premium",
       colors: ["Stainless", "Navy", "Charcoal"]
     },
