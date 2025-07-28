@@ -36,7 +36,7 @@ const ProductGrid = () => {
       originalPrice: 32.99,
       rating: 4.7,
       reviews: 2156,
-      image: "https://images.unsplash.com/photo-1544961503-a10e582e0f4e?w=400",
+      image: "https://images.pexels.com/photos/8330506/pexels-photo-8330506.jpeg",
       badge: "Budget Pick",
       colors: ["Green", "Black", "Hammertone"]
     },
@@ -48,7 +48,7 @@ const ProductGrid = () => {
       originalPrice: 34.99,
       rating: 4.6,
       reviews: 756,
-      image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?w=400",
+      image: "https://images.pexels.com/photos/5067694/pexels-photo-5067694.jpeg",
       badge: "One-Hand Operation",
       colors: ["Black", "Blue", "Red"]
     },
