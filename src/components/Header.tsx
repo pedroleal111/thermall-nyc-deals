@@ -7,7 +7,10 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
+          <div 
+            className="flex items-center space-x-2 cursor-pointer"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+          >
             <div className="w-8 h-8 bg-gradient-to-r from-primary to-primary-hover rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-lg">T</span>
             </div>
@@ -18,11 +21,25 @@ const Header = () => {
 
           {/* Navigation - Hidden on mobile */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#products" className="text-foreground hover:text-primary transition-colors">
-              Products
-            </a>
-            <a href="#brands" className="text-foreground hover:text-primary transition-colors">
+            <a 
+              href="#brands" 
+              className="text-foreground hover:text-primary transition-colors cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: document.getElementById('brands')?.offsetTop || 0, behavior: 'smooth' });
+              }}
+            >
               Brands
+            </a>
+            <a 
+              href="#products" 
+              className="text-foreground hover:text-primary transition-colors cursor-pointer"
+              onClick={(e) => {
+                e.preventDefault();
+                window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' });
+              }}
+            >
+              Products
             </a>
             <a href="#deals" className="text-foreground hover:text-primary transition-colors">
               Bulk Deals
@@ -45,7 +62,7 @@ const Header = () => {
             <Button 
               variant="ghost" 
               size="icon"
-              onClick={() => window.scrollTo({ top: document.getElementById('deals')?.offsetTop || 0, behavior: 'smooth' })}
+              onClick={() => window.scrollTo({ top: document.getElementById('products')?.offsetTop || 0, behavior: 'smooth' })}
             >
               <ShoppingCart className="h-5 w-5" />
             </Button>
